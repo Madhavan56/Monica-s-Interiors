@@ -1,0 +1,24 @@
+{
+  "name": "monicas-interiors",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monica's Interiors: React + Vite + Tailwind + Framer Motion storefront with an Express + MongoDB + JWT API",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n db,api,web -c magenta,yellow,cyan \"npm run db -w apps/api\" \"npm run dev -w apps/api\" \"npm run dev -w apps/web\"",
+    "seed": "npm run seed -w apps/api",
+    "build": "npm run build -w apps/web",
+    "start": "npm run build && npm run start -w apps/api",
+    "test:api": "npm test -w apps/api",
+    "start:only": "npm run start -w apps/api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}

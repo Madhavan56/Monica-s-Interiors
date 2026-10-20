@@ -1,0 +1,29 @@
+{
+  "name": "@mi/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch-path=src --watch-path=../../packages/shared/src src/server.js",
+    "db": "node src/scripts/local-db.js",
+    "start": "node src/server.js --serve-web",
+    "seed": "node src/scripts/seed.js --reset",
+    "test": "node --test test/smoke.test.js"
+  },
+  "dependencies": {
+    "@mi/shared": "*",
+    "@node-rs/argon2": "^2.0.2",
+    "compression": "^1.7.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.2",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0",
+    "zod": "^3.23.8"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules
+apps/api/.data
+apps/web/images-src
+*.log

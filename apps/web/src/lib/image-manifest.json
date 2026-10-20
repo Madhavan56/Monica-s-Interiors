@@ -1,0 +1,121 @@
+{
+ "/images/products/arden.jpg": {
+  "w": 960,
+  "h": 640,
+  "srcSet": "/images/products/arden-480.webp 480w, /images/products/arden-960.webp 960w",
+  "src": "/images/products/arden-960.webp",
+  "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoYABAAPu1orU6ppiSiMAgBMB2JZQC2yBjS/ETxlS6toDeAAP6Tb26RZf7M1ICvZPKika4nDF4Ys3Kmrcq/ByNqQsAVdniX5ewrrIZokUpQAA=="
+ },
+ "/images/products/atlas.jpg": {
+  "w": 960,
+  "h": 640,
+  "srcSet": "/images/products/atlas-480.webp 480w, /images/products/atlas-960.webp 960w",
+  "src": "/images/products/atlas-960.webp",
+  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwBACdASoYABAAPu1iqk2ppaQiMAgBMB2JYgCdMoMnJEioB8tDF5DXTAAA/tBt+DRJCYb7+naYh5PJwWTIkvJ9mzLXM42LQuFycn1OBQhuIHv5BdmdTnm3lY+0LOYK+wAAAA=="
+ },
+ "/images/products/fern.jpg": {
+  "w": 960,
+  "h": 1440,
+  "srcSet": "/images/products/fern-480.webp 480w, /images/products/fern-960.webp 960w",
+  "src": "/images/products/fern-960.webp",
+  "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADwBgCdASoYACQAPuFYqk2opSQiNVgMARAcCWMAwf9owjeis+6+RIShBAYNK6TL9R77IMofDUmnZIzTDlKFNmQAAP7xz/1ssa9AMXN+i20fMqB8Xn47+xaoRUu8zZnsZRgJzTv7ookIc85aX7+4Fc7kwplWq1NI1STdzCR1OIsDJqDun8n+9IYfRR+6btxdxIzj45C2VNhTWMAA"
+ },
+ "/images/products/halden.jpg": {
+  "w": 960,
+  "h": 640,
+  "srcSet": "/images/products/halden-480.webp 480w, /images/products/halden-960.webp 960w",
+  "src": "/images/products/halden-960.webp",
+  "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoYABAAPu1orU6ppiSiMAgBMB2JZQDE2BhbjzqVv1VBv2oAAP7nkWkfsocMkDhJlFTFnACItAM86tUPONn8yboL8wzvRRLNlq4TSuw35uP6qq8qzJaexhjOyAAAAA=="
+ },
+ "/images/products/lune.jpg": {
+  "w": 960,
+  "h": 768,
+  "srcSet": "/images/products/lune-480.webp 480w, /images/products/lune-960.webp 960w",
+  "src": "/images/products/lune-960.webp",
+  "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwBACdASoYABMAPtFao02oJaMiN+gBABoJZwAAaYfmhpxQ2QLRmImgVx58EWkfw+AA/prABCadMRVVsNgI8kSI4LXg8jdZQC2Y+b9FDeRqQ+kGQs9Xo10vzzINq+AAAAA="
+ },
+ "/images/products/mira.jpg": {
+  "w": 960,
+  "h": 640,
+  "srcSet": "/images/products/mira-480.webp 480w, /images/products/mira-960.webp 960w",
+  "src": "/images/products/mira-960.webp",
+  "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoYABAAPu1krU2ppaSiMAgBMB2JZwDDNCHEIptWHLe3XNk2YAD+7Vvca7g5rOu3EBk57jywuyFpi3QPkuL9lEMCmKrYQ0htiTmBeAAA"
+ },
+ "/images/products/noor.jpg": {
+  "w": 960,
+  "h": 640,
+  "srcSet": "/images/products/noor-480.webp 480w, /images/products/noor-960.webp 960w",
+  "src": "/images/products/noor-960.webp",
+  "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JYwC7ABuMYHq+FMU2wAD7r0iCRpFDcMb/ziJ/QT7PWhnsLEDk6EZVdl/oAGT41S0I+2xekVAAAA=="
+ },
+ "/images/products/orla.jpg": {
+  "w": 960,
+  "h": 662,
+  "srcSet": "/images/products/orla-480.webp 480w, /images/products/orla-960.webp 960w",
+  "src": "/images/products/orla-960.webp",
+  "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoYABAAPu1kq04ppaQiMAgBMB2JZwDImCHgERAu2hn7YbJmYAD+8c9wV1PY/LfEqNTarxEarhDNbXUV3bkLlyc80XHsy3qEEkatCFwyNAapDQrB1AA="
+ },
+ "/images/products/sol.jpg": {
+  "w": 960,
+  "h": 1440,
+  "srcSet": "/images/products/sol-480.webp 480w, /images/products/sol-960.webp 960w",
+  "src": "/images/products/sol-960.webp",
+  "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQBQCdASoYACQAPtVYok2oJSMiOrmYAQAaiWUA0YBdbN0mb6NkgiLrVPDaO1xFCEux5OAA/vTeSL6eatbQ+P76XCC5+XwHbbZ+qbjFpGelken3/uSkFFKazpIPoDPT0zADHC98MMISeIt5lPJSsAAA"
+ },
+ "/images/products/terra.jpg": {
+  "w": 960,
+  "h": 709,
+  "srcSet": "/images/products/terra-480.webp 480w, /images/products/terra-960.webp 960w",
+  "src": "/images/products/terra-960.webp",
+  "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoYABIAPtVao02oJaMiN+gBABqJZQC7AB2WDZlBhNUzxlJKW8AAym9xqb+BT6BzzEh6kSJX9bTE/Tbke3IJTrxpgpONOqOqYe0W6gYjxCQeE3OqoM5MPhcAAAA="
+ },
+ "/images/scenes/bedroom.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "srcSet": "/images/scenes/bedroom-640.webp 640w, /images/scenes/bedroom-1280.webp 1280w, /images/scenes/bedroom-1920.webp 1920w",
+  "src": "/images/scenes/bedroom-1920.webp",
+  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQBACdASoYABAAPu1mqk4ppaOiMAgBMB2JYwC7AB0+j8mCn4spHbD/vGRgAPzHs8k8KUrZ40Hmr/d09r6+3PqAzYN65i7dCCF4nt6TkkGzmFBBTUSskckmjqRGPrryuKk0ZF8BAAA="
+ },
+ "/images/scenes/dining.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "srcSet": "/images/scenes/dining-640.webp 640w, /images/scenes/dining-1280.webp 1280w, /images/scenes/dining-1920.webp 1920w",
+  "src": "/images/scenes/dining-1920.webp",
+  "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoYABAAPu1mqk2ppaQiMAgBMB2JQBOmUABHiEA40KpKURO2APzNy63MdPI+IzBRzBdDFLfdJtMm1xAMuY1lmeJwXTjbiUTzLkqo/2kPSIdlZdF546Xp7HmLXQg2ogZCu7H/9BXhkQ3LsuAA"
+ },
+ "/images/scenes/editorial.jpg": {
+  "w": 1920,
+  "h": 1304,
+  "srcSet": "/images/scenes/editorial-640.webp 640w, /images/scenes/editorial-1280.webp 1280w, /images/scenes/editorial-1920.webp 1920w",
+  "src": "/images/scenes/editorial-1920.webp",
+  "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoYABAAPu1kqU2ppaOiMAgBMB2JZwAAW+xctgB5vLhgAAD+9CUiom4rZXWAQxoWJyPQ8sW5XnRkhi0NF+GnwAAA"
+ },
+ "/images/scenes/hero.jpg": {
+  "w": 1920,
+  "h": 1281,
+  "srcSet": "/images/scenes/hero-640.webp 640w, /images/scenes/hero-1280.webp 1280w, /images/scenes/hero-1920.webp 1920w",
+  "src": "/images/scenes/hero-1920.webp",
+  "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBACdASoYABAAPu1krU2ppaSiMAgBMB2JZACsINiC9rHnvgNxx1QeOFTTaAD+4Q0IOKFR0wzoNqqm99p1/OrqYZIZCu3jR5rCdjqLbm8eDuCLiV+T+itutmgapTBz1dWOrUoTgAA="
+ },
+ "/images/scenes/living.jpg": {
+  "w": 1920,
+  "h": 2560,
+  "srcSet": "/images/scenes/living-640.webp 640w, /images/scenes/living-1280.webp 1280w, /images/scenes/living-1920.webp 1920w",
+  "src": "/images/scenes/living-1920.webp",
+  "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAACwBQCdASoYACAAPtFaoU2oJaMiN+gBABoJQBWEIOiN70xqwdmPFvVWkpyt/bGRwjxGZ+V1YfAA/vGgedj+m7dE6L05nMW9CKuYSYU7ou+pZeOkS9dxaUnza6TTE80J3XjLHXyBboVrCSJowPpMcanmeTCx2EPHQ6sU/MuT0jxLQrkGJHBGgxbOr8hwwWNrBYZj6j+SYH4uQrKbVDvTZ5SwcAA="
+ },
+ "/images/scenes/login.jpg": {
+  "w": 1920,
+  "h": 1281,
+  "srcSet": "/images/scenes/login-640.webp 640w, /images/scenes/login-1280.webp 1280w, /images/scenes/login-1920.webp 1920w",
+  "src": "/images/scenes/login-1920.webp",
+  "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAwCdASoYABAAPu1iqU2ppaOmMAgBMB2JZwAAXGUQApoAAP5S/9js+vp4DTU0f8VtHAqTjPR50UBAAAA="
+ },
+ "/images/scenes/workspace.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "srcSet": "/images/scenes/workspace-640.webp 640w, /images/scenes/workspace-1280.webp 1280w, /images/scenes/workspace-1920.webp 1920w",
+  "src": "/images/scenes/workspace-1920.webp",
+  "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoYABAAPu1kqU2ppaQiMAgBMB2JYwCsABtmTylK1UpWgeTQAP7r/4vr+Jni9OtcDUqJ36Hwt9ePrbNO3EqamRFO3rSZPkSIHvZshlqoxlZjAAAA"
+ }
+}

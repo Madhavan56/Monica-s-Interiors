@@ -1,0 +1,4 @@
+@tailwind utilities;
+
+/* The design system's .overline label collides with Tailwind's text-decoration utility of the same name. */
+.overline { text-decoration-line: none; }

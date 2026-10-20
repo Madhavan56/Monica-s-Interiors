@@ -1,0 +1,37 @@
+/* React app: Framer Motion drives these animations, so neutralize the prototype's CSS versions. */
+.toast, .toast.leaving { animation: none; }
+.timeline li.done .node { transform: none; }
+.timeline li.new { animation: none; }
+.heart svg { transition: none; }
+.heart > span:first-child { width: 20px; height: 20px; }
+.heart > span:first-child svg { width: 20px; height: 20px; overflow: visible; }
+
+/* Leading icon inside inputs (Icon renders a span) */
+.input-wrap > .leading { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--color-text-tertiary); pointer-events: none; }
+
+/* Art containers rendered via innerHTML */
+.thumb svg, .item-row .thumb svg { width: 100%; height: 100%; }
+.scene-fill { position: absolute; inset: 0; }
+.scene-fill > svg { width: 100%; height: 100%; }
+
+/* Route-level skeleton for lazy pages */
+.page-loading { min-height: 60vh; }
+
+/* Active nav underline handled by Framer layoutId */
+.nav-links a { position: relative; }
+@media (hover: hover) and (pointer: fine) { .room-tile:hover .scene-fill svg { transform: scale(1.04); } }
+.room-tile .scene-fill svg { transition: transform var(--duration-slow) var(--ease-out); }
+.auth-art .scene-fill { position: absolute; inset: 0; }
+
+/* Photography */
+.hero-media .scene-photo { object-position: 60% 60%; }
+.auth-art .scene-photo { object-position: 30% 50%; }
+@media (min-width: 1024px) {
+  /* Ivory wash on the left keeps the overlaid headline readable on any photo (AA contrast). */
+  .hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(250, 248, 245, 0.94) 0%, rgba(250, 248, 245, 0.82) 34%, rgba(250, 248, 245, 0) 62%); }
+}
+.room-tile .scene-fill .scene-photo { transition: transform var(--duration-slow) var(--ease-out); }
+@media (hover: hover) and (pointer: fine) { .room-tile:hover .scene-photo { transform: scale(1.04); } }
+.art img { transition: transform var(--duration-slow) var(--ease-out), opacity var(--duration-base) var(--ease-out); }
+@media (hover: hover) and (pointer: fine) { .product-card:hover .art img.main-view { transform: scale(1.04); } }
+@media (prefers-reduced-motion: reduce) { .product-card:hover .art img.main-view, .room-tile:hover .scene-photo { transform: none; } }

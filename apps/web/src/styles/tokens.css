@@ -1,0 +1,97 @@
+/* Monica's Interiors — design tokens (see design spec, section 7) */
+:root {
+  color-scheme: light;
+  /* Color – light */
+  --color-bg: #FAF8F5;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F3EFE9;
+  --color-surface-sunken: #F0ECE6;
+  --color-text: #1F1A17;
+  --color-text-secondary: #5C534C;
+  --color-text-tertiary: #756B64;
+  --color-primary: #3B2F2A;
+  --color-primary-hover: #2A211D;
+  --color-on-primary: #FFFFFF;
+  --color-accent: #A8803E;
+  --color-accent-text: #7A5A22;
+  --color-border: #E6E0D8;
+  --color-border-strong: #8C8279;
+  --color-focus: #A8803E;
+  --color-overlay: rgba(31, 26, 23, 0.48);
+  --color-nav-bg: rgba(255, 255, 255, 0.92);
+  --color-shimmer: #FAF8F5;
+  --color-status-success: #2F6B4F;  --color-status-success-bg: #E8F2EC;
+  --color-status-warning: #8A5A00;  --color-status-warning-bg: #FBF1DE;
+  --color-status-error: #B3261E;    --color-status-error-bg: #FBE9E7;
+  --color-status-info: #2D5B8A;     --color-status-info-bg: #E6EEF7;
+  --color-status-neutral: #5C534C;  --color-status-neutral-bg: #F0ECE6;
+
+  /* Type */
+  --font-display: "Fraunces Variable", "Fraunces", Georgia, serif;
+  --font-body: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Space (4px base) */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  --space-12: 48px; --space-16: 64px; --space-24: 96px; --space-32: 128px;
+
+  /* Radius */
+  --radius-xs: 4px; --radius-sm: 8px; --radius-md: 12px;
+  --radius-lg: 16px; --radius-xl: 24px; --radius-full: 9999px;
+
+  /* Shadow */
+  --shadow-xs: 0 1px 2px rgba(31, 26, 23, 0.06);
+  --shadow-sm: 0 2px 8px rgba(31, 26, 23, 0.06), 0 1px 2px rgba(31, 26, 23, 0.04);
+  --shadow-md: 0 8px 24px rgba(31, 26, 23, 0.08), 0 2px 6px rgba(31, 26, 23, 0.04);
+  --shadow-lg: 0 16px 40px rgba(31, 26, 23, 0.12);
+  --shadow-xl: 0 24px 64px rgba(31, 26, 23, 0.18);
+
+  /* Motion */
+  --duration-instant: 100ms; --duration-fast: 150ms; --duration-base: 220ms;
+  --duration-moderate: 320ms; --duration-slow: 480ms; --duration-slower: 700ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Z-index */
+  --z-sticky: 100; --z-navbar: 200; --z-dropdown: 300;
+  --z-overlay: 400; --z-modal: 500; --z-toast: 600;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #141110;
+  --color-surface: #1C1816;
+  --color-surface-alt: #252019;
+  --color-surface-sunken: #100D0C;
+  --color-text: #F2EDE7;
+  --color-text-secondary: #C4BAB1;
+  --color-text-tertiary: #9C928A;
+  --color-primary: #E8DCCB;
+  --color-primary-hover: #F4EBDF;
+  --color-on-primary: #1F1A17;
+  --color-accent: #C9A35F;
+  --color-accent-text: #C9A35F;
+  --color-border: #2E2824;
+  --color-border-strong: #7D726A;
+  --color-focus: #C9A35F;
+  --color-overlay: rgba(0, 0, 0, 0.64);
+  --color-nav-bg: rgba(28, 24, 22, 0.9);
+  --color-shimmer: #2E2824;
+  --color-status-success: #6FC39A;  --color-status-success-bg: #1E2A23;
+  --color-status-warning: #E5B454;  --color-status-warning-bg: #2C2415;
+  --color-status-error: #F2827A;    --color-status-error-bg: #2E1B19;
+  --color-status-info: #8DB8E8;     --color-status-info-bg: #1A2430;
+  --color-status-neutral: #C4BAB1;  --color-status-neutral-bg: #252019;
+  --shadow-sm: 0 0 0 1px rgba(255, 255, 255, 0.06);
+  --shadow-md: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 16px 40px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 24px 64px rgba(0, 0, 0, 0.6);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-moderate: 150ms; --duration-slow: 0ms; --duration-slower: 0ms;
+  }
+}
